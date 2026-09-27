@@ -1,0 +1,11 @@
+version: 2
+
+sources: 
+
+  - name: donne_brute
+    database: base_dbt
+    schema: source_data
+    tables:
+      - name: CONTRACTS
+      - name: TOKEN_TRANSFERS
+      - name: TRANSACTIONS

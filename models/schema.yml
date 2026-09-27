@@ -1,0 +1,16 @@
+
+version: 2
+
+models:
+  - name: transaction_enriched
+    columns:
+      - name: hash
+        data_tests:
+          - unique
+          - not_null
+  - name: transaction2
+    columns:
+      - name: value
+        data_tests:
+          - unique
+          - not_null
